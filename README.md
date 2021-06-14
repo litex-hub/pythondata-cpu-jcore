@@ -44,7 +44,7 @@ and are imported using `git subtrees` to the directory
 You can install the package manually, however this is **not** recommended.
 
 ```
-git clone https://github.com/cr1901/pythondata-cpu-jcore.git
+git clone https://github.com/litex-hub/pythondata-cpu-jcore.git
 cd pythondata-cpu-jcore
 sudo python setup.py install
 ```
@@ -55,33 +55,33 @@ You can use [pip](https://pip.pypa.io/) to install the data package directly
 from github using;
 
 ```
-pip install --user git+https://github.com/cr1901/pythondata-cpu-jcore.git
+pip install --user git+https://github.com/litex-hub/pythondata-cpu-jcore.git
 ```
 
 If you want to install for the whole system rather than just the current user,
 you need to remove the `--user` argument and run as sudo like so;
 
 ```
-sudo pip install git+https://github.com/cr1901/pythondata-cpu-jcore.git
+sudo pip install git+https://github.com/litex-hub/pythondata-cpu-jcore.git
 ```
 
 You can install a specific revision of the repository using;
 ```
-pip install --user git+https://github.com/cr1901/pythondata-cpu-jcore.git@<tag>
-pip install --user git+https://github.com/cr1901/pythondata-cpu-jcore.git@<branch>
-pip install --user git+https://github.com/cr1901/pythondata-cpu-jcore.git@<hash>
+pip install --user git+https://github.com/litex-hub/pythondata-cpu-jcore.git@<tag>
+pip install --user git+https://github.com/litex-hub/pythondata-cpu-jcore.git@<branch>
+pip install --user git+https://github.com/litex-hub/pythondata-cpu-jcore.git@<hash>
 ```
 
 ### With `requirements.txt` file
 
 Add to your Python `requirements.txt` file using;
 ```
--e git+https://github.com/cr1901/pythondata-cpu-jcore.git
+-e git+https://github.com/litex-hub/pythondata-cpu-jcore.git
 ```
 
 To use a specific revision of the repository, use the following;
 ```
--e https://github.com/cr1901/pythondata-cpu-jcore.git@<hash>
+-e https://github.com/litex-hub/pythondata-cpu-jcore.git@<hash>
 ```
 
 ## Installing from [PyPi](https://pypi.org/project/pythondata-cpu-jcore/)
